@@ -1570,7 +1570,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-    background-color: #378C3F;
+    background-color: #00b7ff;
     color: #FFFFFF;
 }
 
@@ -2860,11 +2860,11 @@ textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-    background: rgba(55, 140, 63, 0.4);
+    background: rgba(95, 205, 224, 0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
-    background: #378C3F;
+    background: #0189b3;
 }
 
 .progress-container.progress-primary .progress-value,
@@ -3723,7 +3723,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #378C3F !important;
+    background-color: #00aaf8 !important;
 }
 
 .bg-info {
