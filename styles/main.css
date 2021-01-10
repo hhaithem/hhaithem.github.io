@@ -2869,7 +2869,7 @@ textarea.form-control:active {
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-    color: #378C3F;
+    color: #0487df;
 }
 
 .progress-container.progress-info .progress {
@@ -2882,7 +2882,7 @@ textarea.form-control:active {
 
 .progress-container.progress-info .progress-value,
 .progress-container.progress-info .progress-badge {
-    color: #2CA8FF;
+    color: #18557d;
 }
 
 .progress-container.progress-success .progress {
