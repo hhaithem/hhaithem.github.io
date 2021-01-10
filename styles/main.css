@@ -755,7 +755,7 @@
 .datepicker.datepicker-primary table tr td.active.disabled div,
 .datepicker.datepicker-primary table tr td.active.disabled:hover div {
     background-color: #FFFFFF;
-    color: #378C3F;
+    color: #1a69df;
 }
 
 .datepicker.datepicker-primary table tr td.day:hover div,
@@ -1585,7 +1585,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-    background-color: #40a249;
+    background-color: #05abec;
     color: #FFFFFF;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -3050,15 +3050,15 @@ textarea.form-control:active {
 .pagination.pagination-success .page-item.active>.page-link,
 .pagination.pagination-success .page-item.active>.page-link:focus,
 .pagination.pagination-success .page-item.active>.page-link:hover {
-    background-color: #18ce0f;
-    border-color: #18ce0f;
+    background-color: #1661ec;
+    border-color: #1661ec;
 }
 
 .pagination.pagination-primary .page-item.active>.page-link,
 .pagination.pagination-primary .page-item.active>.page-link:focus,
 .pagination.pagination-primary .page-item.active>.page-link:hover {
-    background-color: #378C3F;
-    border-color: #378C3F;
+    background-color: #1661ec;
+    border-color: #1661ec;
 }
 
 .pagination.pagination-warning .page-item.active>.page-link,
@@ -3401,13 +3401,13 @@ body {
 .nav-pills.nav-pills-neutral .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-neutral .nav-item .nav-link.active:hover {
     background-color: #FFFFFF;
-    color: #378C3F;
+    color: #0092e7;
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-    background-color: #378C3F;
+    background-color: #0092e7;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active,
@@ -3419,7 +3419,7 @@ body {
 .nav-pills.nav-pills-success .nav-item .nav-link.active,
 .nav-pills.nav-pills-success .nav-item .nav-link.active:focus,
 .nav-pills.nav-pills-success .nav-item .nav-link.active:hover {
-    background-color: #18ce0f;
+    background-color: #0092e7;
 }
 
 .nav-pills.nav-pills-warning .nav-item .nav-link.active,
@@ -3536,8 +3536,8 @@ body {
 }
 
 .nav-tabs.nav-tabs-primary>.nav-item>.nav-link.active {
-    border-color: #378C3F;
-    color: #378C3F;
+    border-color: #0092e7;
+    color: #0092e7;
 }
 
 .nav-tabs.nav-tabs-info>.nav-item>.nav-link.active {
@@ -3556,8 +3556,8 @@ body {
 }
 
 .nav-tabs.nav-tabs-success>.nav-item>.nav-link.active {
-    border-color: #18ce0f;
-    color: #18ce0f;
+    border-color: #0092e7;
+    color: #0092e7;
 }
 
 .navbar {
