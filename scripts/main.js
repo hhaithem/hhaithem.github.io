@@ -4,8 +4,29 @@
 $(document).ready(function() {
   AOS.init( {
     // uncomment below for on-scroll animations to played only once
-    // once: true  
+    // once: true
   }); // initialize animate on scroll library
+
+  function setMode(mode) {
+    if (mode === 'dark') {
+      $('body').addClass('dark-mode');
+      $('#theme-toggle').text('Light Mode');
+    } else {
+      $('body').removeClass('dark-mode');
+      $('#theme-toggle').text('Dark Mode');
+    }
+    localStorage.setItem('theme', mode);
+  }
+
+  $('#theme-toggle').on('click', function() {
+    const isDark = $('body').hasClass('dark-mode');
+    setMode(isDark ? 'light' : 'dark');
+  });
+
+  const storedTheme = localStorage.getItem('theme');
+  if (storedTheme === 'dark') {
+    setMode('dark');
+  }
 });
 
 // Smooth scroll for links with hashes
