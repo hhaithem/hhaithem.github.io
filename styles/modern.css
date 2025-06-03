@@ -1,0 +1,33 @@
+/* Modern sleek design customizations */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-header-image {
+    background-size: cover;
+    filter: brightness(0.8);
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #378C3F;
+    border-color: #378C3F;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #555555;
+    padding: 20px 0;
+}
