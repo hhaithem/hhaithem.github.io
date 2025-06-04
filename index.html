@@ -1,558 +1,117 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Haythem's portfolio</title>
-    <meta name="description" content="" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C3XXW4JXKQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C3XXW4JXKQ');
-</script>
+    <meta name="description" content="Haythem Houiji portfolio showcasing skills and experience">
+    <title>Haythem Houiji | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-rs1YpKdWVA6zZr7SUC+vWsT+LdQ5x9sP2rZOVVgj5WvKVI+nYi3R5Eq5k4Z4FQjT7JJ0Wa+HW07FSUs5mQ8B+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/modern.css">
 </head>
-
 <body id="top">
-    <header>
-        <div class="profile-page sidebar-collapse">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-                <div class="container">
-                    <div class="navbar-translate">
-                        <a class="navbar-brand" href="#" rel="tooltip"></a>
-                        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
-                    </div>
-                    <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                        <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#certificates">Certificates</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#social">Social Activities</a></li>
-                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="#top">Haythem Houiji</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                <li class="nav-item"><button id="theme-toggle" class="btn btn-link nav-link">Dark Mode</button></li>
+            </ul>
         </div>
-    </header>
-    <div class="page-content">
-        <div>
-            <div class="profile-page">
-                <div class="wrapper">
-                    <div class="page-header page-header-small" filter-color="green">
-                        <div class="page-header-image" data-parallax="true" style="background-image: url('images/header.jpg');"></div>
-                        <div class="container">
-                            <div class="content-center">
-                                <div class="cc-profile-image">
-                                    <a href="#"><img src="images/haythem.jpg" alt="Image" /></a>
-                                </div>
-                                <div class="h2 title">Haythem HOUIJI</div>
-                                <p class="category text-white">IT Application Manager & Software QA analyst</p>
-                                <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="res/CV_Haythem_HOUIJI_EN.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
-                            </div>
-                        </div>
-                        <div class="section">
-                            <div class="container">
-                                <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/K3NW4Y/" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
-                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/HuijiHaythem" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
-                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/haythem-huiji/" rel="tooltip" title="Follow me on Linkedin"><i class="fa fa-linkedin"></i></a>
-                                    <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/haythamhuiji/" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    </div>
+</nav>
+<header class="hero text-white" style="background-image: url('images/header.jpg');">
+    <div class="container text-center">
+        <img class="rounded-circle mb-3" src="images/haythem.jpg" alt="Haythem HOUIJI" width="160" height="160">
+        <h1 class="display-4">Haythem Houiji</h1>
+        <p class="lead">IT Application Manager &amp; Software QA Analyst</p>
+        <a href="res/CV_Haythem_HOUIJI_EN.pdf" class="btn btn-primary mr-2">Download CV</a>
+        <a href="#contact" class="btn btn-outline-light smooth-scroll">Hire Me</a>
+        <div class="social-links mt-4">
+            <a class="text-white mx-2" href="https://www.linkedin.com/in/haythem-huiji/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a class="text-white mx-2" href="https://twitter.com/HuijiHaythem" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+            <a class="text-white mx-2" href="https://github.com/hhaithem" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github fa-lg"></i></a>
+        </div>
+    </div>
+</header>
+<section id="about">
+    <div class="container text-center">
+        <h2 class="mb-4">About</h2>
+        <p>Experienced and goal-oriented support specialist and QA analyst with IT experience in Core Banking and Forex solutions. Skilled in analytical thinking and creative problem solving.</p>
+    </div>
+</section>
+<section id="skills" class="bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h6>Java &amp; JEE</h6>
+                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:80%"></div></div>
+                <h6>C#</h6>
+                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:75%"></div></div>
+                <h6>Python</h6>
+                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:80%"></div></div>
             </div>
-            <div class="section" id="about">
-                <div class="container">
-                    <div class="card" data-aos="fade-up" data-aos-offset="10">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-12">
-                                <div class="card-body">
-                                    <div class="h4 mt-0 title">About</div>
-                                    <p>Experienced and goal-oriented support specialist and QA analyst with IT experience in Core Banking and Forex solutions.</p>
-                                    <p>Skills include analytical thinking and creative problem solving .</p>
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-12">
-                                <div class="card-body">
-                                    <div class="h4 mt-0 title">Basic Information</div>
-                                    <div class="row">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                                        <div class="col-sm-8">24</div>
-                                    </div>
-                                    <div class="row mt-3">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-                                        <div class="col-sm-8">huiji.haythem@outlook.com</div>
-                                    </div>
-                                    <div class="row mt-3">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-                                        <div class="col-sm-8">+216 20 424 137</div>
-                                    </div>
-                                    <div class="row mt-3">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-                                        <div class="col-sm-8">3 Rue Abou Said Khedhri Sidi Hassine Sijoumi</div>
-                                    </div>
-                                    <div class="row mt-3">
-                                        <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-                                        <div class="col-sm-8">English, Arabic, French</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="skill">
-                <div class="container">
-                    <div class="h4 text-center mb-4 title">Professional Skills</div>
-                    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">JAVA & JEE</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">C#</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">PYTHON</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">R</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Microsoft BI Stack</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Python</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">R</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Power BI</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">SQL</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
-                                        <div class="progress">
-                                            <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section" id="experience">
-                <div class="container cc-experience">
-                    <div class="h4 text-center mb-4 title">Work Experience</div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-experience-header">
-                                    <p>July 2018 - Present</p>
-                                    <div class="h5">UIB - Groupe Société Générale</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">IT Application Manager & QA Analyst</div>
-                                    <p>
-                                        <li>Responsible for the administration of the Core Banking and other business applications.</li>
-                                        <li>Acting as a liaison between IT support teams and the rest of the bank departments.</li>
-                                        <li>Cooperating with other IT support teams in orde to provide timely reactions to incidents while prioritizing effectively.</li>
-                                        <li>Listening actively to users in order to ensure adequate functional support for the Core Banking and the rest of the business applications.</li>
-                                        <li>Preparation, execution of user acceptance tests plan, test scenarios, issues reporting, and resolutions processes.</li>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-experience-header">
-                                    <p>February 2018 - May 2018</p>
-                                    <div class="h5">SFM Technologies</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">End of Studies internship</div>
-                                    <p>In order to digitize the company's employees vacation requests, the HR requested a leave and absence managment system.</p>
-                                    <p>It was developed using Spring, JSF and primefaces.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-experience-header">
-                                    <p>July 2016 - August 2016</p>
-                                    <div class="h5">UBCI - Groupe BNP Paribas</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Intern</div>
-                                    <p>The first opportunity which gave me a global idea about the banking sector and how it works.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="education">
-                <div class="container cc-education">
-                    <div class="h4 text-center mb-4 title">Education</div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>2019 - 2021</p>
-                                    <div class="h5">Master's Degree</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Master of Business Analytics & Data Science</div>
-                                    <p class="category">Virtual University Of Tunis</p>
-                                    <p>Currently Studying the techniques of Business Intelligence, Machine learning and dealing with data analysis. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>2015 - 2018</p>
-                                    <div class="h5">Bachelor's Degree</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Bachelor in IT Management</div>
-                                    <p class="category">Higher Institute Of Management</p>
-                                    <p>Graduated with honours in Computer science and Information Technology Management.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>2012 - 2015</p>
-                                    <div class="h5">High School</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Experiemntal Science</div>
-                                    <p class="category">Bougatfa High School</p>
-                                    <p>Graduated with distinction in Experiemntal Science</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="certificates">
-                <div class="container cc-education">
-                    <div class="h4 text-center mb-4 title">Certificates</div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>December 2017</p>
-                                    <div class="h5">Microsoft Technology Associate</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Software Development Fundamentals</div>
-                                    <br>
-                                    <br>
-                                    <a href="https://portal.certiport.com/Portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=129&cvid=Wcw22jneK+uw2wKVEgJ1Og==">Certificate Link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>March 2017</p>
-                                    <div class="h5">Microsoft Technology Associate</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Database Administration Fundamentals</div>
-                                    <br>
-                                    <br>
-                                    <a href="https://portal.certiport.com/Portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=132&cvid=9Swt3K+qOsfwd+eChZ9Ppg==">Certificate Link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="social">
-                <div class="container cc-education">
-                    <div class="h4 text-center mb-4 title">Social Activities</div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>2018</p>
-                                    <div class="h5">ISG Microsoft Club</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Member</div>
-                                    <br>
-                                    <br>
-                                    <p>Learned many things about Microsoft Technologies and participated in a handful of events.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body cc-education-header">
-                                    <p>2018</p>
-                                    <div class="h5">Amercian Corner Debate Club</div>
-                                </div>
-                            </div>
-                            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-                                <div class="card-body">
-                                    <div class="h5">Junior Debater</div>
-                                    <br>
-                                    <br>
-                                    <li>
-                                        Learned how to discuss complicated subjects calmly and without losing my composure.
-                                    </li>
-                                    <li>Enhanced my skills in persuasion.</li>
-                                    <li>Deepened my understanding of subjects and helped me learn to think outside the box through active listening.</li>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="reference">
-                <div class="container cc-reference">
-                    <div class="h4 mb-4 text-center title">Role Models</div>
-                    <div class="card" data-aos="zoom-in">
-                        <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
-                                <li data-target="#cc-Indicators" data-slide-to="1"></li>
-                                <li data-target="#cc-Indicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/Marilyn.jpg" alt="Image" />
-                                            <div class="h5 pt-2">Marilyn vos Savant</div>
-                                            <p class="category">Author</p>
-                                        </div>
-                                        <div class="col-lg-10 col-md-9">
-                                            <p></p>
-                                            <p>A good idea will keep you awake during the morning, but a great idea will keep you awake during the night.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/SteveJ.jpg" alt="Image" />
-                                            <div class="h5 pt-2">Steve Jobs</div>
-                                            <p class="category">Apple</p>
-                                        </div>
-                                        <div class="col-lg-10 col-md-9">
-                                            <p></p>
-                                            <p>You have to be burning with an idea, or a problem, or a wrong that you want to right. If you’re not passionate enough from the start, you’ll never stick it out.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/Oprah.jpeg" alt="Image" />
-                                            <div class="h5 pt-2">Oprah Winfrey</div>
-                                            <p class="category">CEO / Harpo Productions</p>
-                                        </div>
-                                        <div class="col-lg-10 col-md-9">
-                                            <p></p>
-                                            <p>Leadership is about empathy. It is about having the ability to relate to and connect with people for the purpose of inspiring and empowering their lives.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="contact">
-                <div class="cc-contact-information" style="background-image: url('images/map.png');">
-                    <div class="container">
-                        <div class="cc-contact">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <div class="card mb-0" data-aos="zoom-in">
-                                        <div class="h4 text-center title">Contact Me</div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="card-body">
-                                                    <form action="https://formspree.io/f/xoqppnde" method="POST">
-                                                        <div class="p pb-3"><strong>Feel free to contact me </strong></div>
-                                                        <div class="row mb-3">
-                                                            <div class="col">
-                                                                <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
-                                                                    <input class="form-control" type="text" name="name" placeholder="Name" required="required" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-3">
-                                                            <div class="col">
-                                                                <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                                                                    <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-3">
-                                                            <div class="col">
-                                                                <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                                                    <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-3">
-                                                            <div class="col">
-                                                                <div class="form-group">
-                                                                    <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <button class="btn btn-primary" type="submit">Send</button>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="card-body">
-                                                    <p class="mb-0"><strong>Address </strong></p>
-                                                    <p class="pb-2">3 Rue Abou Said Khedhri Sidi Hassine Sijoumi Tunisia</p>
-                                                    <p class="mb-0"><strong>Phone</strong></p>
-                                                    <p class="pb-2">+216 20 424 137</p>
-                                                    <p class="mb-0"><strong>Email</strong></p>
-                                                    <p>huiji.haythem@outlook.com</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <h6>JavaScript</h6>
+                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:60%"></div></div>
+                <h6>Power BI</h6>
+                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:70%"></div></div>
+                <h6>SQL</h6>
+                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:75%"></div></div>
             </div>
         </div>
     </div>
-    <footer class="footer">
-
-    </footer>
-    <script src="js/core/jquery.3.2.1.min.js"></script>
-    <script src="js/core/popper.min.js"></script>
-    <script src="js/core/bootstrap.min.js"></script>
-    <script src="js/now-ui-kit.js?v=1.1.0"></script>
-    <script src="js/aos.js"></script>
-    <script src="scripts/main.js"></script>
+</section>
+<section id="experience">
+    <div class="container">
+        <h2 class="text-center mb-4">Experience</h2>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">UIB - Groupe Société Générale <small class="text-muted float-right">2018 - Present</small></h5>
+                <p class="card-text">IT Application Manager &amp; QA Analyst</p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">SFM Technologies <small class="text-muted float-right">2018</small></h5>
+                <p class="card-text">End of Studies Internship developing a leave management system with Spring and JSF.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form action="https://formspree.io/f/xoqppnde" method="POST">
+                    <div class="form-group"><input type="text" name="name" class="form-control" placeholder="Name" required></div>
+                    <div class="form-group"><input type="email" name="_replyto" class="form-control" placeholder="Email" required></div>
+                    <div class="form-group"><input type="text" name="subject" class="form-control" placeholder="Subject" required></div>
+                    <div class="form-group"><textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea></div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer text-center">
+    <div class="container">
+        <small>&copy; 2025 Haythem Houiji</small>
+    </div>
+</footer>
+<script src="js/core/jquery.3.2.1.min.js"></script>
+<script src="js/core/popper.min.js"></script>
+<script src="js/core/bootstrap.min.js"></script>
+<script src="scripts/main.js"></script>
 </body>
-
 </html>
