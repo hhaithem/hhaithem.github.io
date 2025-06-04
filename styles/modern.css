@@ -29,6 +29,7 @@ body.dark-mode {
     background-color: var(--card-bg) !important;
     box-shadow: 0 2px 4px var(--shadow-color);
 
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f7fa;
@@ -38,6 +39,7 @@ body {
 .navbar {
     background-color: #ffffff !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 
 }
 
@@ -93,7 +95,24 @@ section {
 .navbar .nav-link {
     cursor: pointer;
 }
-=======
+
+
+.social-links a {
+    transition: opacity 0.2s;
+}
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+.progress {
+    height: 0.5rem;
+    background-color: var(--card-bg);
+    border-radius: 0.25rem;
+}
+.progress-bar {
+    background-color: var(--primary-color);
+}
+
     border: none;
     border-radius: 0.5rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -109,4 +128,5 @@ section {
     color: #555555;
     padding: 20px 0;
 }
+
 
