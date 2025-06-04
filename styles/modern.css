@@ -1,5 +1,6 @@
 /* Modern sleek design customizations */
 
+
 :root {
     --bg-color: #f5f7fa;
     --text-color: #333333;
@@ -27,6 +28,19 @@ body.dark-mode {
 .navbar {
     background-color: var(--card-bg) !important;
     box-shadow: 0 2px 4px var(--shadow-color);
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
 }
 
 .page-header-image {
@@ -35,6 +49,7 @@ body.dark-mode {
 }
 
 .card {
+
     background-color: var(--card-bg);
     border: none;
     border-radius: 0.5rem;
@@ -81,6 +96,7 @@ section {
     cursor: pointer;
 }
 
+
 .social-links a {
     transition: opacity 0.2s;
 }
@@ -96,3 +112,21 @@ section {
 .progress-bar {
     background-color: var(--primary-color);
 }
+
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #378C3F;
+    border-color: #378C3F;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #555555;
+    padding: 20px 0;
+}
+
+
