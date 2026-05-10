@@ -3,144 +3,367 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Haythem Houiji — IT Application Manager & Software QA Analyst. Portfolio showcasing skills and experience.">
+    <meta name="theme-color" content="#0b0f17">
+    <title>Haythem Houiji — Portfolio</title>
 
-
-
-
-    <meta name="description" content="Haythem Houiji portfolio showcasing skills and experience">
-    <title>Haythem Houiji | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-rs1YpKdWVA6zZr7SUC+vWsT+LdQ5x9sP2rZOVVgj5WvKVI+nYi3R5Eq5k4Z4FQjT7JJ0Wa+HW07FSUs5mQ8B+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="styles/modern.css">
 
-    <link rel="stylesheet" href="styles/modern.css">
-
-    <title>Haythem's portfolio</title>
-    <meta name="description" content="" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-    <link href="styles/modern.css" rel="stylesheet">
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-C3XXW4JXKQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C3XXW4JXKQ');
-</script>
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C3XXW4JXKQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-C3XXW4JXKQ');
+    </script>
 </head>
 <body id="top">
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
-    <div class="container">
-        <a class="navbar-brand" href="#top">Haythem Houiji</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navigation">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
-                <li class="nav-item"><button id="theme-toggle" class="btn btn-link nav-link">Dark Mode</button></li>
-            </ul>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- Scroll progress bar -->
+<div class="scroll-progress" aria-hidden="true"></div>
+
+<!-- Animated background -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-gradient" aria-hidden="true"></div>
+
+<!-- Navbar -->
+<nav class="nav" id="nav">
+    <div class="nav__inner">
+        <a href="#top" class="nav__brand">
+            <span class="nav__brand-mark">H</span>
+            <span class="nav__brand-text">Haythem<span class="accent">.</span></span>
+        </a>
+
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#about" class="nav__link" data-scroll><span class="nav__num">01</span>About</a></li>
+            <li><a href="#skills" class="nav__link" data-scroll><span class="nav__num">02</span>Skills</a></li>
+            <li><a href="#experience" class="nav__link" data-scroll><span class="nav__num">03</span>Experience</a></li>
+            <li><a href="#contact" class="nav__link" data-scroll><span class="nav__num">04</span>Contact</a></li>
+        </ul>
+
+        <div class="nav__actions">
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <a href="res/CV_Haythem_HOUIJI_EN.pdf" class="btn btn--ghost btn--sm" download>
+                <i class="fa-solid fa-download"></i>
+                <span>Resume</span>
+            </a>
+            <button class="nav__burger" id="nav-burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </div>
 </nav>
-<header class="hero text-white" style="background-image: url('images/header.jpg');">
-    <div class="container text-center">
-        <img class="rounded-circle mb-3" src="images/haythem.jpg" alt="Haythem HOUIJI" width="160" height="160">
-        <h1 class="display-4">Haythem Houiji</h1>
-        <p class="lead">IT Application Manager &amp; Software QA Analyst</p>
-        <a href="res/CV_Haythem_HOUIJI_EN.pdf" class="btn btn-primary mr-2">Download CV</a>
-        <a href="#contact" class="btn btn-outline-light smooth-scroll">Hire Me</a>
 
-        <div class="social-links mt-4">
-            <a class="text-white mx-2" href="https://www.linkedin.com/in/haythem-huiji/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin fa-lg"></i></a>
-            <a class="text-white mx-2" href="https://twitter.com/HuijiHaythem" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
-            <a class="text-white mx-2" href="https://github.com/hhaithem" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github fa-lg"></i></a>
+<!-- Hero -->
+<header class="hero">
+    <div class="hero__particles" id="particles"></div>
+
+    <div class="hero__inner container">
+        <div class="hero__content">
+            <p class="hero__hello reveal">
+                <span class="hero__hello-line"></span>
+                Hello, I'm
+            </p>
+            <h1 class="hero__title reveal">
+                Haythem <span class="grad">Houiji</span>.
+            </h1>
+            <h2 class="hero__subtitle reveal">
+                I build reliable software &amp; <span class="typed" id="typed"></span><span class="caret">|</span>
+            </h2>
+            <p class="hero__desc reveal">
+                IT Application Manager &amp; Software QA Analyst with hands-on experience in
+                Core Banking and Forex solutions. I turn complex problems into clean,
+                tested, maintainable systems.
+            </p>
+
+            <div class="hero__cta reveal">
+                <a href="#contact" class="btn btn--primary magnetic" data-scroll>
+                    <span>Get in touch</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="res/CV_Haythem_HOUIJI_EN.pdf" class="btn btn--ghost magnetic" download>
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                    <span>Download CV</span>
+                </a>
+            </div>
+
+            <div class="hero__socials reveal">
+                <a class="social" href="https://www.linkedin.com/in/haythem-huiji/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a class="social" href="https://github.com/hhaithem" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a class="social" href="https://twitter.com/HuijiHaythem" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                <a class="social" href="mailto:hello@haythem.dev" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
         </div>
 
-
+        <div class="hero__portrait reveal">
+            <div class="portrait">
+                <div class="portrait__glow"></div>
+                <div class="portrait__ring"></div>
+                <img src="images/haythem.jpg" alt="Haythem Houiji" loading="eager">
+                <div class="portrait__badge">
+                    <span class="dot"></span>
+                    Available for work
+                </div>
+            </div>
+        </div>
     </div>
+
+    <a href="#about" class="hero__scroll" data-scroll aria-label="Scroll to About">
+        <span></span>
+    </a>
 </header>
-<section id="about">
-    <div class="container text-center">
-        <h2 class="mb-4">About</h2>
-        <p>Experienced and goal-oriented support specialist and QA analyst with IT experience in Core Banking and Forex solutions. Skilled in analytical thinking and creative problem solving.</p>
-    </div>
-</section>
-<section id="skills" class="bg-light">
+
+<!-- About -->
+<section id="about" class="section">
     <div class="container">
-        <h2 class="text-center mb-4">Skills</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <h6>Java &amp; JEE</h6>
-                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:80%"></div></div>
-                <h6>C#</h6>
-                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:75%"></div></div>
-                <h6>Python</h6>
-                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:80%"></div></div>
+        <div class="section__head reveal">
+            <span class="section__num">01</span>
+            <h2 class="section__title">About me</h2>
+            <span class="section__rule"></span>
+        </div>
+
+        <div class="about">
+            <div class="about__text reveal">
+                <p>
+                    I'm an experienced and goal-oriented <strong>support specialist</strong> and
+                    <strong>QA analyst</strong> with a solid IT background in Core Banking and Forex
+                    solutions. I blend analytical thinking with creative problem solving to keep
+                    critical applications running smoothly.
+                </p>
+                <p>
+                    Day to day, I manage application lifecycles, design and execute QA strategies,
+                    and automate what shouldn't be manual. I enjoy digging into complex issues,
+                    building tooling around them, and shipping clean, well-tested solutions.
+                </p>
+
+                <ul class="about__tags">
+                    <li>Core Banking</li>
+                    <li>QA &amp; Automation</li>
+                    <li>Incident Management</li>
+                    <li>SQL &amp; BI</li>
+                    <li>Agile</li>
+                </ul>
             </div>
-            <div class="col-md-6">
-                <h6>JavaScript</h6>
-                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:60%"></div></div>
-                <h6>Power BI</h6>
-                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:70%"></div></div>
-                <h6>SQL</h6>
-                <div class="progress mb-3"><div class="progress-bar bg-primary" style="width:75%"></div></div>
+
+            <div class="stats reveal">
+                <div class="stat">
+                    <div class="stat__num" data-count="7">0</div>
+                    <div class="stat__label">Years of experience</div>
+                </div>
+                <div class="stat">
+                    <div class="stat__num" data-count="40">0</div>
+                    <div class="stat__label">Projects delivered</div>
+                </div>
+                <div class="stat">
+                    <div class="stat__num" data-count="15">0</div>
+                    <div class="stat__label">Technologies</div>
+                </div>
+                <div class="stat">
+                    <div class="stat__num" data-count="99">0</div>
+                    <div class="stat__label">% uptime focus</div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<section id="experience">
+
+<!-- Skills -->
+<section id="skills" class="section section--alt">
     <div class="container">
-        <h2 class="text-center mb-4">Experience</h2>
-        <div class="card mb-3">
-            <div class="card-body">
-                <h5 class="card-title">UIB - Groupe Société Générale <small class="text-muted float-right">2018 - Present</small></h5>
-                <p class="card-text">IT Application Manager &amp; QA Analyst</p>
+        <div class="section__head reveal">
+            <span class="section__num">02</span>
+            <h2 class="section__title">Skills &amp; Stack</h2>
+            <span class="section__rule"></span>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card reveal" data-tilt>
+                <div class="skill-card__icon"><i class="fa-brands fa-java"></i></div>
+                <h3>Java &amp; JEE</h3>
+                <div class="skill-bar"><span data-width="85"></span></div>
+                <span class="skill-card__level">Advanced</span>
+            </div>
+            <div class="skill-card reveal" data-tilt>
+                <div class="skill-card__icon"><i class="fa-solid fa-hashtag"></i></div>
+                <h3>C# / .NET</h3>
+                <div class="skill-bar"><span data-width="75"></span></div>
+                <span class="skill-card__level">Proficient</span>
+            </div>
+            <div class="skill-card reveal" data-tilt>
+                <div class="skill-card__icon"><i class="fa-brands fa-python"></i></div>
+                <h3>Python</h3>
+                <div class="skill-bar"><span data-width="80"></span></div>
+                <span class="skill-card__level">Proficient</span>
+            </div>
+            <div class="skill-card reveal" data-tilt>
+                <div class="skill-card__icon"><i class="fa-brands fa-js"></i></div>
+                <h3>JavaScript</h3>
+                <div class="skill-bar"><span data-width="65"></span></div>
+                <span class="skill-card__level">Working</span>
+            </div>
+            <div class="skill-card reveal" data-tilt>
+                <div class="skill-card__icon"><i class="fa-solid fa-chart-column"></i></div>
+                <h3>Power BI</h3>
+                <div class="skill-bar"><span data-width="70"></span></div>
+                <span class="skill-card__level">Proficient</span>
+            </div>
+            <div class="skill-card reveal" data-tilt>
+                <div class="skill-card__icon"><i class="fa-solid fa-database"></i></div>
+                <h3>SQL</h3>
+                <div class="skill-bar"><span data-width="80"></span></div>
+                <span class="skill-card__level">Advanced</span>
             </div>
         </div>
-        <div class="card mb-3">
-            <div class="card-body">
-                <h5 class="card-title">SFM Technologies <small class="text-muted float-right">2018</small></h5>
-                <p class="card-text">End of Studies Internship developing a leave management system with Spring and JSF.</p>
+
+        <!-- Marquee -->
+        <div class="marquee reveal" aria-hidden="true">
+            <div class="marquee__track">
+                <span>Spring Boot</span><span>JUnit</span><span>Selenium</span>
+                <span>Postman</span><span>Jira</span><span>Confluence</span>
+                <span>Git</span><span>Docker</span><span>Oracle</span>
+                <span>PL/SQL</span><span>REST</span><span>SOAP</span>
+                <!-- duplicate for seamless loop -->
+                <span>Spring Boot</span><span>JUnit</span><span>Selenium</span>
+                <span>Postman</span><span>Jira</span><span>Confluence</span>
+                <span>Git</span><span>Docker</span><span>Oracle</span>
+                <span>PL/SQL</span><span>REST</span><span>SOAP</span>
             </div>
         </div>
     </div>
 </section>
-<section id="contact" class="bg-light">
+
+<!-- Experience -->
+<section id="experience" class="section">
     <div class="container">
-        <h2 class="text-center mb-4">Contact</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <form action="https://formspree.io/f/xoqppnde" method="POST">
-                    <div class="form-group"><input type="text" name="name" class="form-control" placeholder="Name" required></div>
-                    <div class="form-group"><input type="email" name="_replyto" class="form-control" placeholder="Email" required></div>
-                    <div class="form-group"><input type="text" name="subject" class="form-control" placeholder="Subject" required></div>
-                    <div class="form-group"><textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea></div>
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </form>
+        <div class="section__head reveal">
+            <span class="section__num">03</span>
+            <h2 class="section__title">Experience</h2>
+            <span class="section__rule"></span>
+        </div>
+
+        <ol class="timeline">
+            <li class="timeline__item reveal">
+                <div class="timeline__dot"></div>
+                <div class="timeline__card">
+                    <header>
+                        <h3>IT Application Manager &amp; QA Analyst</h3>
+                        <span class="timeline__date">2018 — Present</span>
+                    </header>
+                    <p class="timeline__org">UIB — Groupe Société Générale</p>
+                    <p>
+                        Managing core banking applications end-to-end: incident handling,
+                        QA strategy, release validation, and coordination with business and
+                        vendor teams. Driving automation and observability to keep critical
+                        services stable.
+                    </p>
+                    <ul class="chips">
+                        <li>Core Banking</li>
+                        <li>QA</li>
+                        <li>SQL</li>
+                        <li>Power BI</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="timeline__item reveal">
+                <div class="timeline__dot"></div>
+                <div class="timeline__card">
+                    <header>
+                        <h3>End of Studies Internship</h3>
+                        <span class="timeline__date">2018</span>
+                    </header>
+                    <p class="timeline__org">SFM Technologies</p>
+                    <p>
+                        Designed and built a leave-management system using
+                        <strong>Spring</strong> and <strong>JSF</strong>, covering the full
+                        cycle from requirements to deployment.
+                    </p>
+                    <ul class="chips">
+                        <li>Spring</li>
+                        <li>JSF</li>
+                        <li>Java EE</li>
+                    </ul>
+                </div>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section section--alt">
+    <div class="container">
+        <div class="section__head reveal">
+            <span class="section__num">04</span>
+            <h2 class="section__title">Let's talk</h2>
+            <span class="section__rule"></span>
+        </div>
+
+        <div class="contact">
+            <div class="contact__intro reveal">
+                <h3>Got a project, a role, or a question?</h3>
+                <p>
+                    I'm always open to interesting conversations around software quality,
+                    application management, and building reliable systems. Drop a message
+                    and I'll get back to you soon.
+                </p>
+                <ul class="contact__list">
+                    <li><i class="fa-solid fa-location-dot"></i> Tunis, Tunisia</li>
+                    <li><i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/haythem-huiji/" target="_blank" rel="noopener">linkedin.com/in/haythem-huiji</a>
+                    </li>
+                    <li><i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/hhaithem" target="_blank" rel="noopener">github.com/hhaithem</a>
+                    </li>
+                </ul>
             </div>
+
+            <form class="contact__form reveal" action="https://formspree.io/f/xoqppnde" method="POST">
+                <div class="field">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Your name</label>
+                </div>
+                <div class="field">
+                    <input type="email" id="email" name="_replyto" required>
+                    <label for="email">Your email</label>
+                </div>
+                <div class="field">
+                    <input type="text" id="subject" name="subject" required>
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="field">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn btn--primary magnetic">
+                    <span>Send message</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
         </div>
     </div>
 </section>
-<footer class="footer text-center">
-    <div class="container">
-        <small>&copy; 2025 Haythem Houiji</small>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container footer__inner">
+        <p>&copy; <span id="year"></span> Haythem Houiji. Built with care.</p>
+        <a href="#top" class="footer__top" data-scroll aria-label="Back to top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
     </div>
 </footer>
-<script src="js/core/jquery.3.2.1.min.js"></script>
-<script src="js/core/popper.min.js"></script>
-<script src="js/core/bootstrap.min.js"></script>
+
 <script src="scripts/main.js"></script>
 </body>
 </html>
